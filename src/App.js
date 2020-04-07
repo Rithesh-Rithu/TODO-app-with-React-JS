@@ -51,14 +51,14 @@ render(){
         	<div className="App col">
           		<img src={logo} alt="logo" className="logo"/>
         	</div>
-        	<div className="col">   
+        	<div className="Todo col">   
 				  <h1 className="app-title">WEBBY-DEV</h1> <br />
 				  <h2>ToDo App</h2> 
           		<div className="container">
           			Add an item!!! <br />
           			<input 
               			type="text" 
-              			className="imput-text" 
+              			className="input-text" 
               			placeholder="Write a Todo..." 
               			required 
               			value={this.state.newItem} 
